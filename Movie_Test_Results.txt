@@ -1,0 +1,95 @@
+all misclassifications 
+
+///Test with all three inputs and all data
+"""
+note:correctly sorts the transformers in class 1 and highest of class 3, schnider's list
+transformers movies all are classified into class 1 since the data are so similar
+the color purple is sorted into class 3 because of the similar date relase with schnider's list
+
+"""
+
+1
+The Legend of Zorro,301,75000000.0,5.9,129.0 class 2 class 1
+Jurassic Park III,199,93000000.0,5.9,92.0 class 2 class 1
+The Haunting,204,80000000.0,4.9,113.0 class 2 class 1
+The Flinstones,147,45000000.0,4.8,91.0 class 2 class 1
+Joe Versus the Volcano,129,25000000.0,5.7,102.0 class 2 class 1
+class mean[193.0, 88000000.0, 115.33333333333333] class 2
+2
+Transformers: Dark of the Moon,180,195000000.0,6.3,154.0 class 1 class 2
+Transformers: Revenge of the Fallen,175,200000000.0,6.0,150.0 class 1 class 2
+The Color Purple,38,15000000.0,7.8,154.0 class 3 class 2
+class mean[212.8148148148148, 62318518.518518515, 120.48148148148148] class 2
+3
+Catch Me If You Can,359,52000000.0,8.0,141.0 class 2 class 3
+Saving Private Ryan,205,70000000.0,8.6,169.0 class 2 class 3
+Back to the Future,184,19000000.0,8.5,114.0 class 2 class 3
+class mean[195.75, 40750000.0, 154.75] class 3
+
+///test with no date input
+"""
+note:similar results for classes 1 and 3, but only 1 misclassification for class 2 
+which again was transformers
+"""
+
+1
+The Legend of Zorro,301,75000000.0,5.9,129.0 class 2 class 1
+Jurassic Park III,199,93000000.0,5.9,92.0 class 2 class 1
+The Haunting,204,80000000.0,4.9,113.0 class 2 class 1
+The Flinstones,147,45000000.0,4.8,91.0 class 2 class 1
+Joe Versus the Volcano,129,25000000.0,5.7,102.0 class 2 class 1
+class mean[88000000.0, 115.33333333333333] class 2
+2
+Transformers: Dark of the Moon,180,195000000.0,6.3,154.0 class 1 class 2
+class mean[62318518.518518515, 120.48148148148148] class 2
+3
+Catch Me If You Can,359,52000000.0,8.0,141.0 class 2 class 3
+Saving Private Ryan,205,70000000.0,8.6,169.0 class 2 class 3
+Back to the Future,184,19000000.0,8.5,114.0 class 2 class 3
+class mean[40750000.0, 154.75] class 2
+
+///test with no budget input
+"""
+note: all but schnider's list were missclassified in classes 1 and 3. Munich was sorted into class 3
+
+"""
+
+1
+Transformers: Age of Extinction,178,210000000.0,5.7,165.0 class 2 class 1
+The Legend of Zorro,301,75000000.0,5.9,129.0 class 2 class 1
+Jurassic Park III,199,93000000.0,5.9,92.0 class 2 class 1
+The Haunting,204,80000000.0,4.9,113.0 class 2 class 1
+The Flinstones,147,45000000.0,4.8,91.0 class 2 class 1
+Joe Versus the Volcano,129,25000000.0,5.7,102.0 class 2 class 1
+class mean[193.0, 115.33333333333333] class 2
+2
+Munich,6,70000000.0,7.6,164.0 class 3 class 2
+class mean[212.8148148148148, 120.48148148148148] class 2
+3
+Catch Me If You Can,359,52000000.0,8.0,141.0 class 2 class 3
+Saving Private Ryan,205,70000000.0,8.6,169.0 class 2 class 3
+Back to the Future,184,19000000.0,8.5,114.0 class 2 class 3
+class mean[195.75, 154.75] class 2
+
+///test with no runtime input
+"""
+note: everything was sorted into class 2.
+runtime seems to have the biggest influence on sorting differences
+"""
+
+1
+Transformers: Age of Extinction,178,210000000.0,5.7,165.0 class 2 class 1
+The Legend of Zorro,301,75000000.0,5.9,129.0 class 2 class 1
+Jurassic Park III,199,93000000.0,5.9,92.0 class 2 class 1
+The Haunting,204,80000000.0,4.9,113.0 class 2 class 1
+The Flinstones,147,45000000.0,4.8,91.0 class 2 class 1
+Joe Versus the Volcano,129,25000000.0,5.7,102.0 class 2 class 1
+class mean[193.0, 88000000.0] class 2
+2
+class mean[212.8148148148148, 62318518.518518515] class 2
+3
+Catch Me If You Can,359,52000000.0,8.0,141.0 class 2 class 3
+Saving Private Ryan,205,70000000.0,8.6,169.0 class 2 class 3
+Schindler's List,35,22000000.0,8.9,195.0 class 2 class 3
+Back to the Future,184,19000000.0,8.5,114.0 class 2 class 3
+class mean[195.75, 40750000.0] class 2

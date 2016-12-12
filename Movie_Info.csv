@@ -1,0 +1,74 @@
+﻿Move Title, Date(from 0 - 365), Budget, IMDB Rating, Runtime
+
+class 1
+
+Transformers: Age of Extinction,178,210000000.0,5.7,165.0
+The Legend of Zorro,301,75000000.0,5.9,129.0
+Jurassic Park III,199,93000000.0,5.9,92.0
+The Haunting,204,80000000.0,4.9,113.0
+The Flinstones,147,45000000.0,4.8,91.0
+Joe Versus the Volcano,129,25000000.0,5.7,102.0
+
+class 2
+
+Bridge of spies,289,40000000.0,7.7,142.0
+Jurassic World,163,150000000.0,7.1,124.0
+The Hundred-Foot Journey,220,22000000.0,7.3,122.0
+Lincoln,321,65000000.0,7.4,150.0
+Men in Black 3,146,225000000.0,6.8,106.0
+War Horse,359,66000000.0,7.2,146.0
+The Adventures of Tintin,355,130000000.0,7.4,107.0
+Real Steel,280,110000000.0,7.1,127.0
+Cowboys & Aliens,210,163000000.0,6.0,119.0
+Transformers: Dark of the Moon,180,195000000.0,6.3,154.0
+Super 8,161,50000000.0,7.1,112.0
+True Grit,356,38000000.0,7.7,110.0
+Hereafter,295,50000000.0,6.5,129.0
+The Lovely Bones,15,65000000.0,6.7,135.0
+Transformers: Revenge of the Fallen,175,200000000.0,6.0,150.0
+Eagle Eye,270,80000000.0,6.6,118.0
+Transformers,184,150000000.0,7.1,144.0
+Letter from Iwo Jima,33,19000000.0,7.9,141.0
+Flags of Our Fathers,293,53000000.0,7.1,135.0
+Monster House,202,75000000.0,6.6,91.0
+Munich,6,70000000.0,7.6,164.0
+Memoirs of a Geisha,357,85000000.0,7.3,145.0
+The Terminal,170,60000000.0,7.3,128.0
+Men in Black II,184,140000000.0,6.1,88.0
+A.I. Artificial Intelligence,180,100000000.0,7.1,146.0
+Shrek,138,60000000.0,7.9,90.0
+The Mask of Zorro,198,65000000.0,6.7,136.0
+Deep Impact,128,75000000.0,6.1,120.0
+Amistad,359,36000000.0,7.2,155.0
+Men in Black,183,90000000.0,7.3,98.0
+Twister,131,92000000.0,6.3,113.0
+Casper,146,50000000.0,6.0,100.0
+Cape Fear,319,35000000.0,7.3,128.0
+Arachnophobia,199,31000000.0,6.3,103.0
+Gremlins 2: The New Batch,166,50000000.0,6.3,106.0
+Back to the Future Part III,145,40000000.0,7.4,118.0
+Dreams,236,12000000.0,7.8,119.0
+Always,356,31000000.0,6.4,122.0
+Back to the Fututre Part II,326,40000000.0,7.8,108.0
+Dad,314,19000000.0,6.1,117.0
+The Land Before Time,323,12300000.0,7.3,69.0
+Who Framed Roger Rabit,174,70000000.0,7.7,104.0
+Empire of the Sun,359,35000000.0,7.8,153.0
+Three O'Clock High,282,6000000.0,7.1,101.0
+The Money Pit,85,10000000.0,6.3,91.0
+The Color Purple,38,15000000.0,7.8,154.0
+Young Sherlock Holmes,338,18000000.0,6.8,109.0
+The Gooniess,158,19000000.0,7.8,116.0
+Gremlins,160,11000000.0,7.2,106.0
+Twighlight Zone: The Movie,175,10000000.0,6.5,101.0
+Poltergeist,155,10700000.0,7.4,114.0
+E.T. the Extra-Terrestrial,162,10500000.0,7.8,115.0
+Used Cars,193,8000000.0,6.8,103.0
+I Wanna Hold Your Hand,142,2700000.0,6.9,104.0
+
+class 3
+
+Catch Me If You Can,359,52000000.0,8.0,141.0
+Saving Private Ryan,205,70000000.0,8.6,169.0
+Schindler's List,35,22000000.0,8.9,195.0
+Back to the Future,184,19000000.0,8.5,114.0
